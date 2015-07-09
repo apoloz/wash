@@ -11,9 +11,9 @@
         <title>CarWash</title>
         <script type="text/javascript">
             function fresh() {
-//                window.location = "file:///E:/PHP/OpenServer/domains/localhost/CarWash/CarWash/www/index.html";
+//                window.location = "index.html";
 //                                   file:///E:/PHP/OpenServer/domains/localhost/CarWash/CarWash/www/CarWash/CarWash/www/index.html
-window.location = "index.html";
+//  window.location = "#home";
             }
             setTimeout("fresh()", 5000);
         </script>
@@ -80,7 +80,7 @@ window.location = "index.html";
                         <p>Copyright 2014 The jQuery Foundation</p>
                     </div>
 
-                    <script type="text/javascript" src="phonegap.js"></script>
+                    <script type="text/javascript" src="cordova.js"></script>
                     <script type="text/javascript" src="js/index.js"></script>
                     <script type="text/javascript" src="js/core.js"></script>
                     <script type="text/javascript">app.initialize();</script>

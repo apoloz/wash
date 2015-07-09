@@ -8,7 +8,6 @@ function startTime() {
     s=checkTime(s);
     document.getElementById('clock').innerHTML=h+":"+m+":"+s;
     t=setTimeout(function(){startTime()},500);
-    document.location.href = "http://www.site.ru";
 };
  
 function checkTime(i){

@@ -10,46 +10,54 @@
         <title>CarWash</title>
     </head>
     <body onLoad=startTime()>
-        
+
         <div data-role="page" id="home">
-            <div data-role="header" data-tap-toggle="false" class="jqm-footer">
-                <p>jQuery Mobile Demos version <span class="jqm-version"></span></p>
-                <p>Copyright 2014 The jQuery Foundation</p>
+            <div data-role="header" class="carwash-sign">
+                <div id="carwash-sign">
+                </div> 
             </div> 
+
 
             <div data-role="content" class="weather-info">
                 <div id="weather-icon">
+                    Довольные клиенты
                 </div>
-                <div id="clock" class="weather-clock">
-                </div>
+
                 <div >
                     <table  width="100%">
                         <tr>
-                            <td><input type="text" name="name" id="name" value="" class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" placeholder="Ваше имя" /></td>
+                            <td><input type="text" name="name" id="name" value="" class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" placeholder="Ваше имя"/></td>
                         </tr>
                         <tr>
                             <td><input type='tel' name="number" class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" id="number" value="" placeholder="Номер телефона" /></td>
                         </tr>
 
                     </table>
-
+                    <div style="text-align: center">
+                        Номер Вашего автомобиля
+                    </div>
                     <div>
 
                         <div style="text-align: center;">
                             <button class="ui-bar-a button" style=" height: 5%; width: 20%; border-radius: 5px; border: 1px white; ">Ok</button>
                         </div>
                     </div>
-                    <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
-                        <p>jQuery Mobile Demos version <span class="jqm-version"></span></p>
-                        <p>Copyright 2014 The jQuery Foundation</p>
-                    </div>
 
-                    <script type="text/javascript" src="cordova.js"></script>
-                    <script type="text/javascript" src="js/index.js"></script>
-                    <script type="text/javascript" src="js/core.js"></script>
-                    <script type="text/javascript">app.initialize();</script>
+
                 </div>
 
+            </div>
+            <div data-role="footer" id="carwash-futer">
+                <div class="carwash-futer">
 
-                </body>
-                </html>
+                </div>
+            </div>
+
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+            <script type="text/javascript" src="js/core.js"></script>
+            <script type="text/javascript">app.initialize();</script>
+
+        </div>
+    </body>
+</html>
